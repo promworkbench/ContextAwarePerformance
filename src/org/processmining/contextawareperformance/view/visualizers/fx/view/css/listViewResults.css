@@ -1,0 +1,45 @@
+.listViewResults {
+	-fx-background-color: -fx-background;
+	-fx-padding: 2px 0 2px 0;
+}
+
+.listViewResults .list-cell {
+	-fx-cursor: hand;
+	-fx-background-color: -fx-background;
+	-fx-padding: 5px;
+	-fx-background-insets: 0;
+}
+
+.listViewResults:focused {
+	-fx-background-insets: 0;
+}
+
+.listViewResults .list-cell:even, .listViewResults .list-cell:odd {
+	-fx-background-color: derive(-fx-base,26.4%) !important;
+}
+
+.listViewResults .list-cell:filled:hover {
+	-fx-background-color: gray !important;
+}
+
+/*
+
+.listViewResults.list-cell:even, .listViewResults .list-cell:odd {
+	-fx-background-color: derive(-fx-base, 26.4%);
+}
+
+.listViewResults.list-cell:filled:hover {
+	-fx-background-color: linear-gradient(to bottom, rgba(246, 248, 249, 1)
+		0%, rgba(229, 235, 238, 1) 50%, rgba(215, 222, 227, 1) 51%,
+		rgba(245, 247, 249, 1) 100%) !important;
+	-fx-text-fill: black !important;
+}
+
+.listViewResults.list-cell:filled:selected:focused, .listViewResults.list-cell:filled:selected
+	{
+	-fx-background-color: linear-gradient(to bottom, rgba(246, 248, 249, 1)
+		0%, rgba(229, 235, 238, 1) 50%, rgba(215, 222, 227, 1) 51%,
+		rgba(245, 247, 249, 1) 100%) !important;
+	-fx-text-fill: black !important;
+}
+*/

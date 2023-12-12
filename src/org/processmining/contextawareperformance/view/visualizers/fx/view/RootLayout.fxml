@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="lblLeftStatus" text="Left status">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin></Label>
+            <Region HBox.hgrow="ALWAYS" />
+            <Label fx:id="lblRightStatus">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin></Label>
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <StackPane fx:id="contentPane" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <HBox maxHeight="35.0" minHeight="35.0" prefHeight="35.0" style="-fx-background-color: darkgray;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="lblTitle" style="-fx-text-fill: white;" text="PERFORMANCE ANALYSIS OF EVENT LOG X" wrapText="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="4.0" />
+               </HBox.margin>
+            </Label>
+            <Region HBox.hgrow="ALWAYS" />
+            <ToolBar style="-fx-background-color: darkgray;">
+               <items>
+                  <Button fx:id="btnExportReport" mnemonicParsing="false" onAction="#exportReport" text="Export PDF report" visible="false" />
+                  <Button fx:id="btnHome" mnemonicParsing="false" onAction="#goToHome" text="Home" />
+               </items>
+            </ToolBar>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>
