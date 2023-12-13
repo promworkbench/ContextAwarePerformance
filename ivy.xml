@@ -1,4 +1,4 @@
-<ivy-module version="2.0">
+<ivy-module version="2.0" xmlns:m="https://ant.apache.org/ivy/maven">
     <info organisation="prom" module="ContextAwarePerformance" revision="latest">
     	<description>
     		Version VERSION
