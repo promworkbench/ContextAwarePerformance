@@ -51,6 +51,11 @@
        <dependency conf="lib->default" org="com.github.jiconfont" name="jiconfont-javafx" rev="1.0.0" />      
        <dependency conf="lib->default" org="com.github.jiconfont" name="jiconfont-font_awesome" rev="4.7.0.0" />
        
+		<!-- https://mvnrepository.com/artifact/org.openjfx/javafx -->
+		<dependency org="org.openjfx" name="javafx" rev="21.0.1">
+		    <artifact name="javafx" type="pom" ext="pom"/>
+		</dependency>
+       
        <!-- Old stuff kept for reference -->
 		<!--       
        <dependency org="com.guigarage" name="flatter" rev="0.7" />

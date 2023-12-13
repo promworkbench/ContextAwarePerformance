@@ -23,7 +23,7 @@
 	<!-- Set the os to win32, win64, lin32, lin64, mac, or all -->
 	<property name="os" value="all" />
 
-	<property name="ivy.install.version" value="2.1.0-rc2" />
+	<property name="ivy.install.version" value="2.3.0-rc2" />
 	<condition property="ivy.home" value="${env.IVY_HOME}">
 	    <isset property="env.IVY_HOME" />
 	</condition>
