@@ -55,6 +55,9 @@
 		<dependency org="org.openjfx" name="javafx" rev="21.0.1">
 		    <artifact name="javafx" type="pom" ext="pom"/>
 		</dependency>
+ 		<dependency org="org.openjfx" name="javafx" rev="21.0.1" m:classifier="linux">
+		    <artifact name="javafx" type="pom" ext="pom"/>
+		</dependency>
        
        <!-- Old stuff kept for reference -->
 		<!--       
