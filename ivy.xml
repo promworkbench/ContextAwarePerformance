@@ -59,6 +59,15 @@
 		    <artifact name="javafx" type="pom" ext="pom"/>
 		</dependency>
        
+		<!-- https://mvnrepository.com/artifact/org.openjfx/javafx-controls -->
+		<dependency org="org.openjfx" name="javafx-base" rev="21.0.1" m:classifier="linux"/>
+		<dependency org="org.openjfx" name="javafx-controls" rev="21.0.1" m:classifier="linux"/>
+		<dependency org="org.openjfx" name="javafx-fxml" rev="21.0.1" m:classifier="linux"/>
+		<dependency org="org.openjfx" name="javafx-graphics" rev="21.0.1" m:classifier="linux"/>
+		<dependency org="org.openjfx" name="javafx-media" rev="21.0.1" m:classifier="linux"/>
+		<dependency org="org.openjfx" name="javafx-swing" rev="21.0.1" m:classifier="linux"/>
+		<dependency org="org.openjfx" name="javafx-web" rev="21.0.1" m:classifier="linux"/>
+       
        <!-- Old stuff kept for reference -->
 		<!--       
        <dependency org="com.guigarage" name="flatter" rev="0.7" />
