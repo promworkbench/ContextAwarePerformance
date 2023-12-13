@@ -63,6 +63,7 @@
 		<fileset dir=".">
 			<include name="ivy/**/*.jar" />
 			<include name="lib/**/*.jar" />
+			<include name="javafx/*.jar" />
 			<!--include name="stdlib/**/*.jar" />
 			<include name="packagelib/**/*.jar" /-->
 		</fileset>
