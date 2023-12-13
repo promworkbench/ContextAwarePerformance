@@ -132,8 +132,6 @@
 			<fileset dir=".">
 				<include name="src/**/*.java" />
 				<exclude name="src/test/**/*.java" />
-				<!--  Exclude next file as it throws an error -->
-				<exclude name="src/org/processmining/contextawareperformance/models/exceptions/NotImplementedYetException.java" />
 			</fileset>
 		</javadoc>
 	</target>

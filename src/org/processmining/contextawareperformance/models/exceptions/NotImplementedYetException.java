@@ -1,6 +1,6 @@
 package org.processmining.contextawareperformance.models.exceptions;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+import org.apache.commons.lang3.NotImplementedException;
 
 public class NotImplementedYetException extends NotImplementedException {
 
